@@ -17,7 +17,7 @@ const BottomChildren = (props: BottomChildrenProps) => {
   return (
     <motion.div
       variants={bottomChildVariant}
-      className="flex justify-center items-center underline underline-offset-8 bg-gray-200 text-black py-3 text-lg px-3 rounded-md font-bold"
+      className="flex justify-center items-center text-center md:underline underline-offset-8 bg-gray-200 text-black py-3 text-sm md:text-lg w-[18vw] rounded-md font-bold"
     >
       {props.children}
     </motion.div>
@@ -39,10 +39,10 @@ const BottomBoxes = () => {
       initial="initial"
       animate="animate"
       variants={boxVariants}
-      className="grid grid-cols-3 gap-4 absolute h-[10vh] max-w-screen-lg bottom-6 z-50 left-1/2 -translate-x-1/2"
+      className="flex justify-around md:justify-evenly absolute h-[6vh] md:h-[10vh] w-[80vw] left-1/2 -translate-x-1/2 bottom-8 z-50"
     >
       <BottomChildren>Best Service</BottomChildren>
-      <BottomChildren>Responsive technics</BottomChildren>
+      <BottomChildren>Responsive Technics</BottomChildren>
       <BottomChildren>Latest Technology</BottomChildren>
     </motion.div>
   );

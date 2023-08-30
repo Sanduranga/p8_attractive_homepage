@@ -3,9 +3,9 @@ import { HiMenuAlt2 } from "react-icons/hi";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-evenly items-center w-[40vw] h-[20vh] z-10 absolute right-0 ">
+    <div className="flex justify-between bg-red-500 items-center max-w-screen-lg h-[20vh] z-10 absolute md:right-0 right-3">
       <Logo />
-      <span className="text-3xl">
+      <span className="text-2xl mb-6 mr-4 md:mb-1 md:text-3xl">
         <HiMenuAlt2 />
       </span>
     </div>

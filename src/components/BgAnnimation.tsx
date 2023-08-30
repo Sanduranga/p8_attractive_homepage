@@ -30,7 +30,7 @@ const BgAnnimation = () => {
           ease: "easeInOut",
           duration: 0.9,
         }}
-        className="bottom-0 left-0 h-[20vh] absolute z-10 border-t-4 border-gray-300  bg-gradient-to-r from-gray-950 to to-gray-700"
+        className="bottom-0 md:h-[20vh] left-0 h-[15vh] absolute z-10 border-t-4 border-gray-300  bg-gradient-to-r from-gray-950 to to-gray-700"
       ></motion.div>
 
       <motion.div
@@ -46,7 +46,7 @@ const BgAnnimation = () => {
           ease: "easeInOut",
           duration: 0.8,
         }}
-        className="-top-[50vh] -left-[30vw] h-[150vh] absolute bg-gradient-to-r from-gray-950 to to-gray-700"
+        className="-top-[50vh] -left-[30vw] h-[90vh] md:h-[150vh] absolute bg-gradient-to-r from-gray-950 to to-gray-700"
       ></motion.div>
     </>
   );
