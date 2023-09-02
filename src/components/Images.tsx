@@ -29,7 +29,7 @@ const Images = () => {
       initial="initial"
       animate="animate"
       variants={imgVariants}
-      className="absolute w-[23vw] h-[55vh] top-[20vh] z-50 left-[40vw]"
+      className="absolute w-[18vw] h-[27vh] top-[18vh] z-50 left-[60vw]"
     >
       <motion.img
         variants={imgAnimation}
