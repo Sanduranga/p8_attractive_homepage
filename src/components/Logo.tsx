@@ -16,9 +16,7 @@ const Logo = () => {
       }}
       className="tracking-widest"
     >
-      <div className="text-black font-bold text-3xl md:text-4xl">
-        SrangThinQ
-      </div>
+      <div className="text-black font-bold text-xl md:text-4xl">SrangThinQ</div>
       <div className="text-gray-800 text-xs md:text-sm uppercase">
         Best IT gang in the world
       </div>
